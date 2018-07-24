@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+#hero{
+    height: 100vh;
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-color: #2A2A2A;
+    background-blend-mode: overlay;
+    color: #ffffff;
+}
+.navbar{
+    box-shadow: none !important;
+    background-color: transparent;
+}
+.navbar-item{
+    color: #ffffff;
+    font-weight: bold;
+    transition: .2s ease-in;
+    font-size: .9em;
+}
+#hero{
+    color: #ffffff !important;
+}
+.navbar-item:hover{
+    background-color: transparent !important;
+    color: #FF0047 !important;
+}
+.active-link{
+    color: #FF0047 !important;
+    border-bottom: 3px solid #FF0047;
+}
+.hero-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 4em;
+}
+.hero-column .is-1{
+    line-height: 1.5em;
+    font-size: 4em;
+    color: #ffffff !important;
+}
+.hero-column .subtitle{
+    line-height: 1.5em;
+    color: #ffffff !important;
+    font-size: 1em;
+}
+.hero-column .button{
+    font-size: 1.1em;
+    padding: 1.8em;
+    color: #ffffff;
+}
+.fa-chevron-right{
+    padding-left: 1em;
+}
+.hire{
+    background-color: #4646469d;
+    border: none;
+}
+.website{
+    background-color: #FF0047;
+    border: none;
+}
+
+.navbar-brand is-4{
+    color: #ffffff;
+}
+.navbar-burger{
+    color: #ffffff !important;
+}
+
+@media (max-width:768px){
+    .hero-column .is-1{
+        line-height: normal;
+        font-size: 2.5em;
+    }
+}
