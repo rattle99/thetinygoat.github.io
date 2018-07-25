@@ -6,9 +6,7 @@
     height: 100vh;
     background-image: url('hero-bg.jpg');
     background-size: cover;
-    background-color: #2A2A2A;
-    background-blend-mode: overlay;
-    color: #ffffff;
+    background-repeat: no-repeat;
 }
 .navbar{
     box-shadow: none !important;
@@ -29,7 +27,6 @@
 }
 .active-link{
     color: #FF0047 !important;
-    border-bottom: 3px solid #FF0047;
 }
 .hero-column{
     display: flex;
@@ -70,10 +67,20 @@
 .navbar-burger{
     color: #ffffff !important;
 }
+.logo{
+    background-image: url('logo.svg');
+    height: 7em;
+    width: 9em;
+    background-size: 100% 100%;
+}
 
 @media (max-width:768px){
     .hero-column .is-1{
         line-height: normal;
         font-size: 2.5em;
+    }
+    .logo{
+        height: 5em;
+        margin-left: 1em;
     }
 }
