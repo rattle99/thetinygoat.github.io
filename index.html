@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
         crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,7 +32,6 @@
                         <div class="navbar-end">
                             <a href="" class="navbar-item is-active active-link">Home</a>
                             <a href="" class="navbar-item">Projects</a>
-                            <a href="" class="navbar-item">About</a>
                             <a href="" class="navbar-item">Contact</a>
                         </div>
                     </div>
@@ -42,9 +43,10 @@
                         <div class="columns is-vcentered">
                             <div class="column hero-column">
                                 <h1 class="title is-1">Full-stack Web Developer.</h1>
-                                <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam natus fugit minus laudantium nemo?</p>
+                                <p class="subtitle">Based out of Delhi, IN. Specializing in Full-stack web-apps and UI development. If you are a business seeking a web presence
+                                or an employer looking to hire, you can get in touch with me <a href="" style="color: #fff; text-decoration: underline">here</a>.</p>
                                 <div class="buttons">
-                                    <a href="" class="button is-large website">I need a website <i class="fas fa-chevron-right"></i></a>
+                                    <a href="" class="button is-large is-danger">I need a website <i class="fas fa-chevron-right"></i></a>
                                     <a href="" class="button is-large hire">I am looking to hire <i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
@@ -54,8 +56,120 @@
             </div>
     </section>
 
-    
+    <section class="projects section">
+        <div class="container">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-two-fifths">
+                        <figure class="image is-480x480">
+                            <img src="bn.png">
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <p class="title is-2">Project 1</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo deleniti, distinctio impedit explicabo maxime molestias
+                            minima eos, ipsam iure accusamus voluptas tenetur, inventore est? Delectus fugit eius iste unde cupiditate!</p>
+                            <div class="tech">
+                                <i class="devicon-nodejs-plain colored"></i>
+                                <i class="devicon-heroku-original colored"></i>
+                                <i class="devicon-express-original colored"></i>
+                                <i class="devicon-mongodb-plain-wordmark colored"></i>
+                            </div>
+                        <div class="buttons">
+                            <a href="" class="button is-danger project-desc">View Project
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <a href="" class="button is-warning">View Code
+                                <i class="fab fa-gitlab"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="columns">
+                    <div class="column is-two-fifths">
+                        <figure class="image is-480x480">
+                            <img src="cr.png">
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <p class="title is-2">Project 1</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo deleniti, distinctio impedit explicabo maxime molestias
+                            minima eos, ipsam iure accusamus voluptas tenetur, inventore est? Delectus fugit eius iste unde cupiditate!</p>
+                            <div class="tech">
+                                <i class="devicon-nodejs-plain colored"></i>
+                                <i class="devicon-heroku-original colored"></i>
+                                <i class="devicon-mongodb-plain-wordmark colored"></i>
+                                <img src="socket.png" alt="">
+                            </div>
+                        <div class="buttons">
+                            <a href="" class="button is-danger project-desc">View Project
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <a href="" class="button is-warning">View Code
+                                <i class="fab fa-gitlab"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="map">
+
+
+<iframe class="location" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJO6crVc4GDTkRNuEl5XISKI4&key=AIzaSyDxm1_ciY6xcw_jbsZwFoXPvogkutihxjw"
+    allowfullscreen></iframe>
+
+    </section>
+
+    <section class="section contact">
+        <div class="container">
+            <div class="columns">
+                <div class="column me-col">
+                    <figure class="me">
+                        <img src="./me.jpg" alt="">
+                    </figure>
+                    <div class="social">
+                        <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href=""><i class="fab fa-gitlab fa-2x"></i></a>
+                        <a href=""><i class="fas fa-envelope fa-2x"></i></a>
+                        <a href=""><i class="fab fa-twitter-square fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="column">
+                    <form action="">
+                        <div class="columns">
+                            <div class="column">
+                                <div class="field">
+                                    <input type="text" name="name" class="input" placeholder="Name" required>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="field">
+                                    <input type="email" name="email" class="input" placeholder="Email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <textarea class="textarea" placeholder="Your Message..." required></textarea>
+                        </div>
+                        <div class="field">
+                            <button class="button is-danger is-fullwidth">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="has-text-centered">
+            <p class="foot-text"><i class="far fa-copyright"></i> SACHINSAINI.COM 2018</p>
+        </div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
