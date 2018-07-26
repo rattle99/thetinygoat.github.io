@@ -23,8 +23,3 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-
-$.ajax({
-  type: 'POST',
-
-})

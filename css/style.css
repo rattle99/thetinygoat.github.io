@@ -4,12 +4,13 @@
 }
 #hero{
     height: 110vh;
-    background-image: url('hero-bg.jpg');
+    background-image: url('../img/hero-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .navbar{
-    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
     background-color: transparent;
 }
 .navbar-menu{
@@ -19,6 +20,8 @@
 .navbar-item{
     color: #ffffff;
     font-weight: bold;
+    -webkit-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
     transition: .2s ease-in;
     font-size: .9em;
 }
@@ -33,9 +36,16 @@
     color: #FF3860 !important;
 }
 .hero-column{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-top: 4em;
 }
 .hero-column .is-1{
@@ -72,7 +82,7 @@
     color: #ffffff !important;
 }
 .logo{
-    background-image: url('logo.svg');
+    background-image: url('../img/logo.svg');
     height: 7em;
     width: 9em;
     background-size: 100% 100%;
@@ -109,7 +119,9 @@
 }
 
 .tech{
-    font-size: 4em;
+    font-size: 3em;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: .3em;
 }
