@@ -8,6 +8,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+html{
+    scroll-behavior: smooth;
+}
 .navbar{
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
